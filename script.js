@@ -24,8 +24,6 @@ var colorNote = 'rgba(255,255,255,1)';
 var colorTop = 'rgba(0,0,0,1)';
 
 var piano = new Tone.Synth().toMaster();
-var reverb = new Tone.Reverb ( [200] ).toMaster();
-
 
 function init(){
   anime({ // note initial animation
