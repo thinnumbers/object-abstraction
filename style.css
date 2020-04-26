@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Italianno&display=swap');
+#pianoContainer{
+  display: grid;
+  grid-template-columns: repeat(25,4vw [col-start]);
+}
+#header{
+  font-family: 'Italianno', cursive;
+  grid-column: 1 / span 16;
+  color: rgba(255,255,255,0);
+  font-size: 7vw;
+}
+.note{
+  margin:17px;
+  width:3.5vw;
+  height: 200px;
+  background-color: rgba(255,255,255,0);
+  border-color: rgba(255,255,255,0);
+}
+.noteTop{
+  position: relative;
+  bottom: 220px;
+  width:25px;
+  height: 125px;
+  background-color: rgba(255,255,255,0);
+  border-color: rgba(255,255,255,0);
+}
+
+.noteC{
+  grid-column: 9;
+}
+.noteD{
+  grid-column: 10;
+}
+.noteE{
+  grid-column: 11;
+}
+.noteF{
+  grid-column: 12;
+}
+.noteG{
+  grid-column: 13;
+}
+.noteA{
+  grid-column: 14;
+}
+.noteB{
+  grid-column: 15;
+}
+.noteHighC{
+  grid-column: 16;
+}
+
+.noteCsharp{
+  grid-column: 10;
+}
+.noteDsharp{
+  grid-column: 11;
+}
+.noteFsharp{
+  grid-column: 13;
+}
+.noteGsharp{
+  grid-column: 14;
+}
+.noteAsharp{
+  grid-column: 15;
+}
