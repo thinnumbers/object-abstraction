@@ -152,7 +152,7 @@ function noteDoubleReset(){
   });
 }
 function notePlay(note,letter){
-  piano = new Tone.Synth().toMaster();
+  //piano = new Tone.Synth().toMaster();
   piano.triggerAttackRelease(letter, '1n');
 }
 function animateButton(note,scale,section) {
