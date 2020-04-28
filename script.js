@@ -24,7 +24,11 @@ var colorNote = 'rgba(255,255,255,1)';
 var colorTop = 'rgba(0,0,0,1)';
 
 var piano = new Tone.Synth().toMaster();
+//const particlesJSON = {}
 
+
+
+//particlesJS("particles-js", particlesJSON)
 function init(){
   anime({ // note initial animation
     targets: "button.note",
@@ -221,8 +225,8 @@ function loadEvents(){
  eventAdder(noteHighC[0],"C5",8);
 
  eventAdder(noteCsharp[0],"C#4",1.5);
- eventAdder(noteDsharp[0],"D#4",2,5);
- eventAdder(noteFsharp[0],"F#4",4,5);
+ eventAdder(noteDsharp[0],"D#4",2.5);
+ eventAdder(noteFsharp[0],"F#4",4.5);
  eventAdder(noteGsharp[0],"G#4",5.5);
  eventAdder(noteAsharp[0],"A#4",6.5);
 }
